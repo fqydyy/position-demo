@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+
+}
+.sidebar {
+  background: #2daaf3;
+  width: 200px;
+  padding: 20px;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+.content {
+  flex: 1;
+}
+
+.sidebar-link {
+  height: 50px;
+  text-align: center;
+}
+.sidebar-link a {
+  color: #ffffff;
+  font-size: 24px;
+  text-decoration: none;
+}
